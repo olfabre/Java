@@ -25,7 +25,7 @@ En Java, les types primitifs sont des types de données de base intégrés au la
 - boolean: représente une valeur booléenne, soit true ou false.
   
 
-Attention 'String' n'est pas un type primitif mais une classe.  
+Attention 'String' n'est pas un type primitif mais une classe et toute instance de String est un objet.  
 
 ```java
 
@@ -70,4 +70,9 @@ public class PrimitivesExample {
 - Efficacité: en utilisant des types primitifs, le compilateur et la JVM peuvent effectuer des optimisations plus efficaces.  
   
 Les types primitifs sont fondamentaux en Java et sont souvent utilisés dans les opérations de base et les algorithmes nécessitant des performances élevées.
+
+
+### Pourquoi `String` ne serait pas primitif ?
+
+
 
