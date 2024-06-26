@@ -58,5 +58,6 @@ public class PrimitivesExample {
 - Performance: les types primitifs sont plus rapides et consomment moins de mémoire par rapport aux objets.
 - Simplicité: ils fournissent une manière simple de représenter des données de base.
 - Efficacité: en utilisant des types primitifs, le compilateur et la JVM peuvent effectuer des optimisations plus efficaces.  
+  
 Les types primitifs sont fondamentaux en Java et sont souvent utilisés dans les opérations de base et les algorithmes nécessitant des performances élevées.
 
