@@ -107,12 +107,12 @@ public class TypeChecker {
         Class<?> integerClass = Integer.class;
 
         // Vérifier si c'est un type primitif
-        System.out.println("intClass est un type primitif: " + intClass.isPrimitive());
-        System.out.println("booleanClass est un type primitif: " + booleanClass.isPrimitive());
+        System.out.println("intClass est un type primitif? " + intClass.isPrimitive());
+        System.out.println("booleanClass est un type primitif? " + booleanClass.isPrimitive());
 
         // Vérifier si ce n'est pas un type primitif (donc une classe)
-        System.out.println("stringClass est un type primitif: " + stringClass.isPrimitive());
-        System.out.println("integerClass est un type primitif: " + integerClass.isPrimitive());
+        System.out.println("stringClass est un type primitif? " + stringClass.isPrimitive());
+        System.out.println("integerClass est un type primitif? " + integerClass.isPrimitive());
     }
 }
 
@@ -123,10 +123,10 @@ Le code ci-dessus produira les résultats suivants:
 
 
 ```csharp
-intClass is primitive: true
-booleanClass is primitive: true
-stringClass is primitive: false
-integerClass is primitive: false
+intClass est un type primitif? true
+booleanClass est un type primitif primitive? true
+stringClass est un type primitif primitive? false
+integerClass est un type primitif primitive? false
 
 ```
 
