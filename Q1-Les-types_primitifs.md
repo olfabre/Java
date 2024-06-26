@@ -80,4 +80,41 @@ La raison principale pour laquelle String n'est pas un type primitif est qu'elle
 ### Comment distinguer les types primitifs des classes ?
 
 
+####  Les types primitifs en Java sont au nombre de huit et débutent par une lettre minuscule:
+
+- byte  
+- short  
+- int  
+- long  
+- float  
+- double  
+- char   
+- boolean  
+  
+Tout ce qui n'est pas un type primitif est une classe ou une interface (type de référence). Cela inclut les chaînes de caractères (String), les tableaux, et tous les objets créés à partir de classes définies par l'utilisateur ou des classes de bibliothèque. Ils débutent par une lettre majuscule.   
+
+Java fournit des mécanismes de réflexion qui permettent d'interroger les types à l'exécution. Vous pouvez utiliser la classe Class pour déterminer si un type est primitif ou non.  
+
+```java
+public class TypeChecker {
+    public static void main(String[] args) {
+        // Types primitifs
+        Class<?> intClass = int.class;
+        Class<?> booleanClass = boolean.class;
+
+        // Classes (types de référence)
+        Class<?> stringClass = String.class;
+        Class<?> integerClass = Integer.class;
+
+        // Vérifier si c'est un type primitif
+        System.out.println("intClass is primitive: " + intClass.isPrimitive());
+        System.out.println("booleanClass is primitive: " + booleanClass.isPrimitive());
+
+        // Vérifier si ce n'est pas un type primitif (donc une classe)
+        System.out.println("stringClass is primitive: " + stringClass.isPrimitive());
+        System.out.println("integerClass is primitive: " + integerClass.isPrimitive());
+    }
+}
+
+```
 
