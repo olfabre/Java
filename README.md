@@ -6,3 +6,9 @@ J'enrichis progressivement ces questions au fil de mon apprentissage du Java. Ce
 Elle s'étend également à d'autres langages de programmation, offrant ainsi une ressource précieuse pour une compréhension globale de l'informatique.  
   
 Olivier Fabre - 2024  
+
+
+Sources: 
+
+Programmer en Java : Couvre Java 10 à Java 14 Ed. 11 - Auteur: Delannoy, Claude - Editeur: Eyrolles - Année de Publication: 2020
+
