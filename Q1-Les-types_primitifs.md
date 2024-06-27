@@ -1,7 +1,7 @@
 ### Java dispose de types primitifs pour représenter les entiers, les flottants, les caractères et les booléens.  
 ### Mais qu'appelle t-on vraiment type primitif ?  
 
-En Java, les types primitifs sont des types de données de base intégrés au langage. Ils sont appelés "primitifs" parce qu'ils ne sont pas des objets et n'ont pas de méthodes associées. Les types primitifs sont gérés directement par le langage et offrent une manière simple et efficace de manipuler des données.  
+On entend souvent que dans java, tout est objet! Les types primitifs sont des types de données de base intégrés au langage. Ils sont appelés "primitifs" parce qu'ils ne sont justement pas des objets et n'ont pas donc de méthodes associées. Les types primitifs sont gérés directement par le langage et offrent une manière simple et efficace de manipuler des données.  
 
 #### Les 8 types primitifs en Java sont les suivants:
 
