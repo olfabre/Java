@@ -129,6 +129,10 @@ public class Main {
 
 ```
 
+#### Conclusion
+
+L'erreur "incompatible types: possible lossy conversion from double to float" est courante mais facile à comprendre une fois que l'on maîtrise les bases des types primitifs en Java. En choisissant la bonne méthode pour déclarer et utiliser nos variables, nous pouvons éviter cette erreur et écrire du code plus propre et plus efficace.  
+
 
 
 
