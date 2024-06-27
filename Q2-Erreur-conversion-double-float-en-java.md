@@ -21,7 +21,7 @@ Java propose huit types primitifs: byte, short, int, long, float, double, char, 
   
 En Java, les littéraux décimaux comme 1.234 sont par défaut de type double. Cela peut causer des problèmes lorsque vous essayez de les assigner à une variable de type float.  
 
-#### La Source de l'Erreur
+#### La Source de l'erreur
 
 Prenons un exemple de code pour illustrer cette erreur:  
 
@@ -51,12 +51,24 @@ java: incompatible types: possible lossy conversion from double to float
 
 ```
  
-### Pourquoi cette erreur se produit-elle ?
+#### Pourquoi cette erreur se produit-elle ?
 
-L'expression 2 * n + 1.500000008 contient un littéral décimal 1.500000008 qui est traité comme un do uble.   
+L'expression 2 * n + 1.500000008 contient un littéral décimal 1.500000008 qui est traité comme un double.   
 En Java, les opérations impliquant des int et des double produisent un résultat de type double.   
 Ensuite, Java tente d'assigner ce double à x, qui est de type float.   
 Cette conversion n'est pas implicite car elle peut entraîner une perte de précision, d'où l'erreur.  
+
+#### Comment corriger cette erreur
+
+Il existe plusieurs méthodes pour résoudre cette erreur en fonction de vos besoins:  
+
+- 1ère solution: utiliser un littéral float: pour indiquer explicitement que 1.500000008 est un float, ajoutez f ou F à la fin du littéral.
+
+```java
+java: incompatible types: possible lossy conversion from double to float
+
+```
+
 
 
 
