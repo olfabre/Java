@@ -62,7 +62,7 @@ Cette conversion n'est pas implicite car elle peut entraîner une perte de préc
 
 Il existe plusieurs méthodes pour résoudre cette erreur en fonction de vos besoins:  
 
-- Solution 1/ Utiliser un littéral float: pour indiquer explicitement que 1.500000008 est un float, ajoutez f ou F à la fin du littéral.
+- Solution 1) Utiliser un littéral float: pour indiquer explicitement que 1.500000008 est un float, ajoutez f ou F à la fin du littéral.
 
 ```java
 
@@ -71,7 +71,7 @@ x = (2 * n + 1.500000008f);
 ```
   
 
-- Solution 2/ Changer le type de la variable: si vous n'avez pas besoin de restreindre x à un float, déclarez x comme double.  
+- Solution 2) Changer le type de la variable: si vous n'avez pas besoin de restreindre x à un float, déclarez x comme double.  
 
 ```java
 
@@ -82,6 +82,56 @@ x = (2 * n + 1.500000008);
 
 
 #### Comparaison des solutions
+
+
+Solution avec `float`
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int n;
+        float x;
+        n = 5;
+        x = (2 * n + 1.500000008f); // Utilisation de 1.500000008f pour indiquer un float
+
+        System.out.println("n = " + n);
+        System.out.println("x = " + x);
+
+        double y;
+        y = n * x + 12;
+        System.out.println("Valeur de y : " + y);
+    }
+}
+
+
+```
+
+Solution avec `double`
+
+
+```java
+
+public class Main {
+    public static void main(String[] args) {
+        int n;
+        double x; // Déclaration de x comme double
+        n = 5;
+        x = (2 * n + 1.500000008); // Pas de conversion nécessaire
+
+        System.out.println("n = " + n);
+        System.out.println("x = " + x);
+
+        double y;
+        y = n * x + 12;
+        System.out.println("Valeur de y : " + y);
+    }
+}
+
+```
+
+
+
+
 
 
 
