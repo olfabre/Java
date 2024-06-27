@@ -68,13 +68,14 @@ Les types primitifs sont fondamentaux en Java et sont souvent utilisés dans les
 En Java, les chaînes de caractères (String) ne sont pas considérées comme des types primitifs pour plusieurs raisons:  
 
 
-- Complexité de la Structure: les types primitifs (comme int, char, boolean, etc.) sont simples et directement représentés en mémoire. En revanche, une String est une séquence de caractères, ce qui la rend plus complexe. Une String nécessite une structure pour stocker cette séquence de caractères, ainsi que des informations supplémentaires comme la longueur de la chaîne.  
-- Fonctionnalités Avancées: les types primitifs ne possèdent pas de méthodes associées. Une String, en revanche, a de nombreuses méthodes associées (comme length(), charAt(), substring(), etc.) pour manipuler et traiter le texte. Ces méthodes font partie des fonctionnalités de la classe String, qui est une classe de type référence (objet) en Java.
+- Complexité de la structure: les types primitifs (comme int, char, boolean, etc.) sont simples et directement représentés en mémoire. En revanche, une String est une séquence de caractères, ce qui la rend plus complexe. Une String nécessite une structure pour stocker cette séquence de caractères, ainsi que des informations supplémentaires comme la longueur de la chaîne.  
+- Fonctionnalités avancées: les types primitifs ne possèdent pas de méthodes associées. Une String, en revanche, a de nombreuses méthodes associées (comme length(), charAt(), substring(), etc.) pour manipuler et traiter le texte. Ces méthodes font partie des fonctionnalités de la classe String, qui est une classe de type référence (objet) en Java.
 - Immutabilité: les objets String sont immuables, ce qui signifie qu'une fois créés, ils ne peuvent pas être modifiés. Toute opération qui modifie une String crée en réalité une nouvelle instance de String. Cette immutabilité est une propriété avancée qui n'est pas nécessairement associée aux types primitifs.
-- Gestion de la Mémoire: les types primitifs sont stockés directement sur la pile (stack), tandis que les objets, y compris les String, sont stockés sur le tas (heap). La gestion de la mémoire pour les objets est plus complexe et implique la gestion des références, le ramasse-miettes (garbage collection), etc...
-- Type de Référence: en Java, une String est une classe, et toute instance de String est un objet. Les objets en Java sont de types de référence, ce qui signifie que les variables de type String stockent des références à des objets plutôt que les objets eux-mêmes. En revanche, les variables des types primitifs stockent directement les valeurs.  
+- Gestion de la mémoire: les types primitifs sont stockés directement sur la pile (stack), tandis que les objets, y compris les String, sont stockés sur le tas (heap). La gestion de la mémoire pour les objets est plus complexe et implique la gestion des références, le ramasse-miettes (garbage collection), etc...
+- Type de référence: en Java, une String est une classe, et toute instance de String est un objet. Les objets en Java sont de types de référence, ce qui signifie que les variables de type String stockent des références à des objets plutôt que les objets eux-mêmes. En revanche, les variables des types primitifs stockent directement les valeurs.  
 
 #### Conclusion  
+
 La raison principale pour laquelle String n'est pas un type primitif est qu'elle est trop complexe et riche en fonctionnalités pour être traitée comme un simple type de données. En tant que classe, String peut encapsuler cette complexité et fournir des méthodes utiles pour manipuler les chaînes de caractères, ce qui serait impossible avec les types primitifs.  
 
 ### Comment distinguer les types primitifs des classes ?
