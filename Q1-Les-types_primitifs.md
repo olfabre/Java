@@ -135,3 +135,6 @@ integerClass est un type primitif primitive? false
   
 Java spécifie précisément les caractéristiques des types primitifs utilisés pour représenter les caractères, les entiers et les nombres à virgule flottante. Cela inclut la taille de la mémoire allouée ainsi que le comportement arithmétique associé. Par conséquent, quel que soit l'ordinateur utilisé, une valeur de type float (nombre réel) aura la même taille, les mêmes limites et la même précision. Java est donc le premier langage à garantir qu'un même programme produira des résultats identiques lorsqu'il est exécuté sur des environnements différents!  
 
+### Sources utilisées pour cet article
+
+Livre "Programmer en Java : Couvre Java 10 à Java 14 Ed. 11" - Auteur: Delannoy, Claude - Editeur: Eyrolles - Année de Publication: 2020
