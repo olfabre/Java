@@ -130,3 +130,7 @@ integerClass est un type primitif primitive? false
 
 ```
 
+### Quelle est la portabilité des primitifs ?  
+  
+En outre, Java spécifie précisément les caractéristiques des types primitifs utilisés pour représenter les caractères, les entiers et les nombres à virgule flottante. Cela inclut la taille de la mémoire allouée ainsi que le comportement arithmétique associé. Par conséquent, quel que soit l'ordinateur utilisé, une valeur de type float (nombre réel) aura la même taille, les mêmes limites et la même précision. Java est donc le premier langage à garantir qu'un même programme produira des résultats identiques lorsqu'il est exécuté sur des environnements différents.  
+
