@@ -62,14 +62,26 @@ Cette conversion n'est pas implicite car elle peut entraîner une perte de préc
 
 Il existe plusieurs méthodes pour résoudre cette erreur en fonction de vos besoins:  
 
-- 1ère solution: utiliser un littéral float: pour indiquer explicitement que 1.500000008 est un float, ajoutez f ou F à la fin du littéral.
+- Solution 1/ Utiliser un littéral float: pour indiquer explicitement que 1.500000008 est un float, ajoutez f ou F à la fin du littéral.
 
 ```java
-java: incompatible types: possible lossy conversion from double to float
+
+x = (2 * n + 1.500000008f);
+
+```
+  
+
+- Solution 2/ Changer le type de la variable: si vous n'avez pas besoin de restreindre x à un float, déclarez x comme double.  
+
+```java
+
+double x;
+x = (2 * n + 1.500000008);
 
 ```
 
 
+#### Comparaison des solutions
 
 
 
