@@ -1,4 +1,4 @@
-### Erreur classique de Conversion de Type double à float  
+### Erreur classique de conversion de type double à float  
 
 #### Comprendre cette erreur classique  
 
