@@ -9,6 +9,8 @@ Lorsqu'on débute en Java, il est courant de rencontrer des erreurs de compilati
 java: incompatible types: possible lossy conversion from double to float
 ```
 
+Dans cet article, je vais expliquer en détail pourquoi cette erreur se produit, comment l'identifier, et les différentes façons de la corriger. Mon objectif est de démystifier cette erreur et essayer de vous fournir les connaissances nécessaires pour l'éviter à l'avenir.  
+
 
 
 
