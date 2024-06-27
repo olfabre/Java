@@ -139,5 +139,5 @@ L'erreur "incompatible types: possible lossy conversion from double to float" es
 
 
 
-### Sources utilisées pour cet article  
+### Sources utilisées pour rédiger cet article  
 Livre "Programmer en Java : Couvre Java 10 à Java 14 Ed. 11" - Auteur: Delannoy, Claude - Editeur: Eyrolles - Année de Publication: 2020
