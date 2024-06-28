@@ -293,7 +293,12 @@ Pour approfondir nos connaissances sur Javadoc et les commentaires de documentat
 
 - Tutoriels et livres: 
 
-    - "Effective Java" par Joshua Bloch : Ce livre contient des conseils précieux sur l'écriture de code Java efficace, y compris la documentation.
+    - "Effective Java" par Joshua Bloch: ce livre contient des conseils précieux sur l'écriture de code Java efficace, y compris la documentation.
+    - "Java: The Complete Reference" par Herbert Schildt : Ce livre couvre en profondeur le langage Java, y compris une section sur Javadoc.
+
+- Guide de style de code Java:
+
+    - Guide de style de code Java de Google: Ce guide offre des conseils sur la façon de commenter efficacement le code Java à l'adresse suivante: https://google.github.io/styleguide/javaguide.html
 
 
 
