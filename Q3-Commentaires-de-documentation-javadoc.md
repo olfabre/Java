@@ -36,10 +36,19 @@ Voici un exemple de code Java qui utilise toutes les balises Javadoc courantes:
 
 ##### @author
 
+Utilisée pour indiquer l'auteur du code.  
+
+
 ```java
+/**
+ * La classe Calculator effectue des opérations arithmétiques simples.
+ * ...
+ * @author John Doe
+ * ...
+ */
+public class Calculator {
 
-
-````@author
+````
 
 
 
