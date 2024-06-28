@@ -41,7 +41,7 @@ Utilisée pour indiquer l'auteur du code.
 /**
  * La classe Calculator effectue des opérations arithmétiques simples.
  * ...
- * @author John Doe
+ * @author Olivier Fabre
  * ...
  */
 public class Calculator {
@@ -74,7 +74,7 @@ Indique la version depuis laquelle l'élément (classe, méthode, etc.) est disp
 /**
  * La classe Calculator effectue des opérations arithmétiques simples.
  * ...
- * @since 2024-06-28
+ * @since 28-06-2024
  * ...
  */
 public class Calculator {
@@ -83,21 +83,104 @@ public class Calculator {
 
 
 
-`@author`
+`@param`
 
-Utilisée pour indiquer l'auteur du code.  
+Décrit un paramètre d'une méthode, indiquant son nom et une brève description.
 
 
 ```java
 /**
- * La classe Calculator effectue des opérations arithmétiques simples.
- * ...
- * @author John Doe
- * ...
+ * Additionne deux nombres entiers.
+ * @param a Le premier nombre
+ * @param b Le deuxième nombre
+ * @return La somme de a et b
  */
-public class Calculator {
+public int add(int a, int b) {
+    return a + b;
+}
 
 ````
+
+
+
+
+`@return`
+
+Décrit la valeur de retour d'une méthode.
+
+
+```java
+/**
+ * Additionne deux nombres entiers.
+ * ...
+ * @return La somme de a et b
+ */
+public int add(int a, int b) {
+    return a + b;
+}
+
+````
+
+
+
+
+`@throws` ou `@exception`
+
+Indique les exceptions que la méthode peut lancer.
+
+
+```java
+/**
+ * Divise le premier nombre par le deuxième.
+ * ...
+ * @throws ArithmeticException si b est égal à zéro
+ */
+public double divide(int a, int b) throws ArithmeticException {
+    if (b == 0) {
+        throw new ArithmeticException("Division par zéro");
+    }
+    return (double) a / b;
+}
+
+````
+
+
+
+
+`@see`
+
+Fournit une référence vers une autre partie de la documentation, souvent une autre méthode ou classe.
+
+
+```java
+/**
+ * Méthode principale pour tester la classe Calculator.
+ * ...
+ * @see #add(int, int)
+ * @see #subtract(int, int)
+ * @see #multiply(int, int)
+ * @see #divide(int, int)
+ */
+public static void main(String[] args) {
+    Calculator calculator = new Calculator();
+    System.out.println("Addition: " + calculator.add(5, 3));
+    System.out.println("Soustraction: " + calculator.subtract(5, 3));
+    System.out.println("Multiplication: " + calculator.multiply(5, 3));
+    try {
+        System.out.println("Division: " + calculator.divide(5, 3));
+    } catch (ArithmeticException e) {
+        System.out.println("Erreur: " + e.getMessage());
+    }
+}
+
+````
+
+
+
+
+
+
+
 
 
 
