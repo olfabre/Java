@@ -298,7 +298,14 @@ Pour approfondir nos connaissances sur Javadoc et les commentaires de documentat
 
 - Guide de style de code Java:
 
-    - Guide de style de code Java de Google: Ce guide offre des conseils sur la façon de commenter efficacement le code Java à l'adresse suivante: https://google.github.io/styleguide/javaguide.html
+    - Guide de style de code Java de Google: ce guide offre des conseils sur la façon de commenter efficacement le code Java à l'adresse suivante: https://google.github.io/styleguide/javaguide.html
+
+- Documentation officielle de Javadoc:
+
+    - Documentation Javadoc (Oracle): la documentation officielle fournit une description détaillée des balises, des options de la commande javadoc et des bonnes pratiques à l'adresse suivante: https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html
+ 
+
+
 
 
 
