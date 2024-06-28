@@ -9,6 +9,37 @@ Les commentaires en Java sont des annotations dans le code qui ne sont pas exéc
 Nous allons nous intéresser dans cet article, aux commentaires de documentation Javadoc. Ils sont spécialement conçus pour être extraits automatiquement par des outils comme Javadoc pour générer de la documentation HTML.  
 
 
+```java
+/**
+ * La classe Example représente un exemple de classe Java.
+ * Elle contient une méthode principale qui affiche un message.
+ *
+ * @author John Doe
+ * @version 1.0
+ */
+public class Example {
+    /**
+     * Méthode principale de l'application.
+     * @param args Les arguments de la ligne de commande
+     */
+    public static void main(String[] args) {
+        System.out.println("Bonjour, le monde!");
+    }
+}
+```
+
+#### Javadoc
+
+Javadoc est un outil de documentation qui fait partie du JDK (Java Development Kit). Il analyse les commentaires de documentation dans le code source Java et génère une documentation HTML qui décrit les classes, les interfaces, les constructeurs, les méthodes et les champs du code.  
+
+Voici un exemple de code Java qui utilise toutes les balises Javadoc courantes:
+
+##### @author
+
+```java
+
+
+````@author
 
 
 
