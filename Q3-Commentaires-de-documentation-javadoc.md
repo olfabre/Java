@@ -280,6 +280,22 @@ javadoc -d doc src/*.java
 Cette commande génère la documentation dans le répertoire doc pour tous les fichiers Java situés dans le répertoire src. Javadoc génère ainsi des fichiers HTML qui peuvent être consultés dans un navigateur web. La documentation générée inclut une description des classes et des méthodes, ainsi que les commentaires Javadoc associés.  
 
 
+#### Bonnes pratiques pour les commentaires Javadoc
+
+- Clair et concis: les commentaires doivent expliquer clairement ce que fait le code sans être verbeux.
+- Éviter les commentaires évidents: ne pas commenter des choses évidentes que le code lui-même montre clairement.
+- Mettre à jour les commentaires: lorsque on modifie le code, on s'assure de mettre à jour les commentaires pour qu'ils restent exacts.
+- Utiliser Javadoc pour les API publiques: le code sera utilisé par d'autres développeurs, on peut donc utiliser des commentaires Javadoc pour documenter les classes, méthodes et interfaces publiques.
+
+#### Documentation pour approfondir Javadoc
+
+Pour approfondir nos connaissances sur Javadoc et les commentaires de documentation, voici quelques ressources utiles:
+
+- Tutoriels et livres: 
+
+    - "Effective Java" par Joshua Bloch : Ce livre contient des conseils précieux sur l'écriture de code Java efficace, y compris la documentation.
+
+
 
 
 
