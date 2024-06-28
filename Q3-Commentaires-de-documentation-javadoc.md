@@ -50,3 +50,54 @@ public class Calculator {
 
 
 
+`@version`
+
+Utilisée pour indiquer la version actuelle du code.
+
+```java
+/**
+ * La classe Calculator effectue des opérations arithmétiques simples.
+ * ...
+ * @version 1.0
+ * ...
+ */
+public class Calculator {
+
+````
+
+
+`@since`
+
+Indique la version depuis laquelle l'élément (classe, méthode, etc.) est disponible.
+
+```java
+/**
+ * La classe Calculator effectue des opérations arithmétiques simples.
+ * ...
+ * @since 2024-06-28
+ * ...
+ */
+public class Calculator {
+
+````
+
+
+
+`@author`
+
+Utilisée pour indiquer l'auteur du code.  
+
+
+```java
+/**
+ * La classe Calculator effectue des opérations arithmétiques simples.
+ * ...
+ * @author John Doe
+ * ...
+ */
+public class Calculator {
+
+````
+
+
+
