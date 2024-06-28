@@ -30,11 +30,9 @@ public class Example {
 
 #### Javadoc
 
-Javadoc est un outil de documentation qui fait partie du JDK (Java Development Kit). Il analyse les commentaires de documentation dans le code source Java et génère une documentation HTML qui décrit les classes, les interfaces, les constructeurs, les méthodes et les champs du code.  
+Javadoc est un outil de documentation qui fait partie du JDK (Java Development Kit). Il analyse les commentaires de documentation dans le code source Java et génère une documentation HTML qui décrit les classes, les interfaces, les constructeurs, les méthodes et les champs du code. Voici un exemple de code Java qui utilise toutes les balises Javadoc courantes:  
 
-Voici un exemple de code Java qui utilise toutes les balises Javadoc courantes:
-
-##### @author
+'@author'
 
 Utilisée pour indiquer l'auteur du code.  
 
